@@ -18,7 +18,7 @@ document.querySelector(".js-userinput").addEventListener('keyup',function(e){
 
 
 function findthegift(input){
-var url = "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q="+input;
+var url = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q="+input;
 
 // AJAX Request
 var GiphyAJAXCall = new XMLHttpRequest();
